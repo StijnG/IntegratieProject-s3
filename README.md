@@ -46,8 +46,8 @@ risatie en de visualisatie) zitten.
 Daarnaast worden 2 javascripts geladen (die voor de Authenticatie en Visualisatie).
 Als laatste moet ook een link gelegd worden met de client library en geven we ook een onload handler mee die ervoor zorgt dat de functie handleClientLoad getriggerd wordt. Indien u met een openbaar project werkt, hoeft u enkel de functie handleClientLoad te vervangen door makeApiCall. Daarnaast heeft u ook de Authentication.js file en de 2 buttons niet nodig.
 
->`<!DOCTYPE>`  
->`<html>`  
+    <!DOCTYPE>
+    <html>  
 >`<head>`  
 >`<title>AnalyticsChart</title>`  
 >`<script type="text/javascript" src="https://www.google.com/jsapi"></script>`  
