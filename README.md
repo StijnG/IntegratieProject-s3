@@ -55,7 +55,7 @@ Als laatste moet ook een link gelegd worden met de client library en geven we oo
 >`<body>`  
 >`<h1>Van Google Analytics naar een Google Chart</h1>`  
 >`<div id="chart_div"></div>`  
->  
+ 
 >`<button id="authorize-button" style="visibility: hidden">Autoriseren</button>`  
 >`<br/>`  
 >>`<button id="make-api-call-button" style="visibility: hidden">Toon Google Chart</button>`  
