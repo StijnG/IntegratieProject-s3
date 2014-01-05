@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Hello Google Analytics API</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://apis.google.com/js/plusone.js"></script>
+
+</head>
+<body>
+    <h1>Analytics Data Export API Script</h1>
+    <div id="chart_div"></div>
+    <!-- De 2 buttons waarmee de user zich kan aanmelden en de grafiek kan opvragen -->
+    <button id="authorize-button" style="visibility: hidden">Authorize</button><br />
+    <button id="make-api-call-button" style="visibility: hidden">Get Visits</button>
+
+    <!-- beide javascript files: de ene die de Authenticatie verzorgt en de andere de Visualisatie -->
+    <script src="Authentication.js"></script>
+    <script src="Visualisation.js"></script>
+
+    <!-- De Client library die wordt geladen-->
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+</body>
+</html>
