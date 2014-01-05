@@ -50,22 +50,23 @@ Als laatste moet ook een link gelegd worden met de client library en geven we oo
 >`<html>`  
 >`<head>`  
 >`<title>AnalyticsChart</title>`  
->>`<script type="text/javascript" src="https://www.google.com/jsapi"></script>`  
+>`<script type="text/javascript" src="https://www.google.com/jsapi"></script>`  
 >`</head>`  
 >`<body>`  
->>`<h1>Van Google Analytics naar een Google Chart</h1>`  
->>`<div id="chart_div"></div>`  
+>`<h1>Van Google Analytics naar een Google Chart</h1>`  
+>`<div id="chart_div"></div>`  
 >  
->>`<button id="authorize-button" style="visibility: hidden">Autoriseren</button>`  
+>`<button id="authorize-button" style="visibility: hidden">Autoriseren</button>`  
 >`<br/>`  
 >>`<button id="make-api-call-button" style="visibility: hidden">Toon Google Chart</button>`  
 >  
->>`<script src="Authentication.js"></script>`  
->>`<script src="Visualisation.js"></script>`  
+>`<script src="Authentication.js"></script>`  
+>`<script src="Visualisation.js"></script>`  
 >  
->>`<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>`  
+>`<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>`  
 >`</body>`  
 >`</html>`  
+
 
 Authentication.js
 ----------------------
