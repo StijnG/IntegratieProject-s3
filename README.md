@@ -57,7 +57,7 @@ Als laatste moet ook een link gelegd worden met de client library en geven we oo
 >`<div id="chart_div"></div>`  
 >`<button id="authorize-button" style="visibility: hidden">Autoriseren</button>`  
 >`<br/>`  
->>`<button id="make-api-call-button" style="visibility: hidden">Toon Google Chart</button>`  
+>`<button id="make-api-call-button" style="visibility: hidden">Toon Google Chart</button>`  
 >`<script src="Authentication.js"></script>`  
 >`<script src="Visualisation.js"></script>`  
 >`<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>`  
